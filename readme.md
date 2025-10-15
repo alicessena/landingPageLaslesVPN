@@ -1,7 +1,13 @@
-# LaslesVPN - Site Institucional
+<div align="center">
+
+# ⚡LaslesVPN - Site Institucional
+
+</div>
 
 ## Descrição do Projeto
 LaslesVPN é um site institucional fictício que apresenta os serviços de uma empresa de VPN, oferecendo informações sobre planos, funcionalidades, estatísticas, depoimentos de usuários e formas de contato. O site foi desenvolvido utilizando **HTML semântico e CSS moderno**, com foco em **design responsivo, acessibilidade básica e organização de layout**.
+
+[![Teste Agora](https://i.imgur.com/NjMHH9O.png)](https://alicessena.github.io/landingPageLaslesVPN/)
 
 O projeto tem como objetivo demonstrar habilidades em **front-end**, incluindo organização de seções, estilização avançada com CSS e implementação de elementos interativos básicos.
 
@@ -14,12 +20,6 @@ O projeto tem como objetivo demonstrar habilidades em **front-end**, incluindo o
 - **Cor de Destaque**: #0B132A (azul escuro para cabeçalhos e rodapés)
 - **Cor de Suporte**: #2C3333 (cinza médio para bordas e separadores)
 - **Cor de Texto**: #000000 (preto para textos principais)
-
-- **HTML5**: Estrutura semântica do site, incluindo header, nav, main, sections e footer.
-- **CSS3**: Layout, responsividade, tipografia e interatividade visual (hover, cards ativos, botões estilizados).
-- **Google Fonts**: Fonte Rubik para uma identidade visual moderna.
-- **Iframes**: Integração com o Google Maps para exibição do mapa de localização.
-- **Imagens e ícones**: Recursos gráficos para melhorar a experiência visual do usuário.
 
 ## Tecnologias Utilizadas
 
