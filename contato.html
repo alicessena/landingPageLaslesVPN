@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página informativa Contatos LaslesVPN" />
+    <title>Contato - LaslesVPN</title>
+    <link rel="stylesheet" href="assets/style/variaveis.css" />
+    <link rel="stylesheet" href="assets/style/reset.css" />
+    <link rel="stylesheet" href="assets/style/contato.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Logo LaslesVPN" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+        <div class="login-area">
+          <a href="./auth/login.html" class="login">Entrar</a>
+          <a href="./auth/cadastro.html" class="btn">Cadastrar</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="contact">
+        <h1>Entre em Contato</h1>
+        <p>Entre em contato conosco para tirar dúvidas ou enviar sugestões.</p>
+
+        <form class="contact-form" aria-label="Formulário de contato">
+          <label for="name">Nome</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Seu nome"
+            required
+          />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu e-mail"
+            required
+          />
+
+          <label for="message">Mensagem</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn-primary">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-info">
+          <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo LaslesVPN" />
+          </div>
+          <p>
+            LaslesVPN fornece acesso seguro e privado em qualquer parte do
+            mundo.
+          </p>
+          <p class="copyright">©2025 LaslesVPN</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Produtos</h4>
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Plano</a></li>
+            <li><a href="#">Serviços</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Engajamento</h4>
+          <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Ajuda</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
