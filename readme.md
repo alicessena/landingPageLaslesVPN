@@ -7,6 +7,20 @@ O projeto tem como objetivo demonstrar habilidades em **front-end**, incluindo o
 
 ---
 
+## Paleta de Cores
+- **Cor Primária**: #F53838 (vermelho vibrante para CTAs e destaques)
+- **Cor Secundária**: #4F5665 (cinza escuro para textos e elementos secundários)
+- **Cor de Fundo**: #FFFFFF (branco para áreas principais)
+- **Cor de Destaque**: #0B132A (azul escuro para cabeçalhos e rodapés)
+- **Cor de Suporte**: #2C3333 (cinza médio para bordas e separadores)
+- **Cor de Texto**: #000000 (preto para textos principais)
+
+- **HTML5**: Estrutura semântica do site, incluindo header, nav, main, sections e footer.
+- **CSS3**: Layout, responsividade, tipografia e interatividade visual (hover, cards ativos, botões estilizados).
+- **Google Fonts**: Fonte Rubik para uma identidade visual moderna.
+- **Iframes**: Integração com o Google Maps para exibição do mapa de localização.
+- **Imagens e ícones**: Recursos gráficos para melhorar a experiência visual do usuário.
+
 ## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica do site, incluindo header, nav, main, sections e footer.
@@ -109,4 +123,21 @@ Principais ajustes incluem:
 - Ícones e imagens são otimizados para desempenho e carregamento rápido.
 - A navegação entre login e cadastro é feita em páginas separadas (`auth/login.html` e `auth/cadastro.html`) para simplicidade e clareza do fluxo do usuário.
 
----
+## 10. Checklist (colar no README e marcar)
+
+- [x]  3 páginas mínimas (Home/Sobre/Contato) + links funcionando.
+- [x]  `header`, `nav`, `main`, `footer` usados com propósito.
+- [x]  Hero na página principal
+- [x]  **Tabela** simples presente.
+- [x]  Paleta no `:root` (variáveis CSS).
+- [x]  Google Fonts.
+- [x]  Imagens otimizadas com `alt` descritivo.
+- [x]  README com papéis, paleta, fontes e decisões.
+- [x]  Site no ar.
+- [x]  Vídeo de demonstração.
+
+
+|   <img width="120" src="https://github.com/alicessena.png">  |
+|:----------------------------:|
+|        **Alice Sena**        |
+| **Desenvolvedora FullStack** |
