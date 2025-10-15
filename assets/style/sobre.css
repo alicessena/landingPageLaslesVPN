@@ -1,0 +1,277 @@
+body {
+  font-family: var(--font);
+  color: var(--secondary);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--white);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: var(--gray);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+.login-area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+.btn {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 8px 20px;
+  border-radius: 25px;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: var(--gray);
+  margin-bottom: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission {
+  padding: 60px 0;
+}
+
+.mission h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.mission ul {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mission li {
+  position: relative;
+  padding-left: 25px;
+  color: var(--gray);
+}
+
+.mission li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
+.plans-table {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.plans-table h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.plans-table p {
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.plans-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.plans-table th,
+.plans-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.plans-table th {
+  background-color: var(--light);
+  font-weight: 500;
+}
+
+footer {
+  background-color: var(--light);
+  padding: 60px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-info {
+  flex: 1 1 250px;
+}
+
+.footer-info p {
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  .mission ul,
+  .plans-table table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .plans-table table th,
+  .plans-table table td {
+    padding: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  .mission h2 {
+    font-size: 1.6rem;
+  }
+
+  .mission li {
+    font-size: 0.95rem;
+  }
+
+  .plans-table h2 {
+    font-size: 1.6rem;
+  }
+
+  .plans-table p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn,
+  .login {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+  }
+
+  .logo span {
+    font-size: 1rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .plans-table table th,
+  .plans-table table td {
+    padding: 8px;
+  }
+
+  .mission ul {
+    gap: 8px;
+  }
+}
